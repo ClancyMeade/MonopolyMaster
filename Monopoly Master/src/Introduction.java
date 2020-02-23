@@ -9,6 +9,8 @@ public class Introduction
 		
 		public static void greetPlayers()
     {
+			
+			
 				System.out.println("Hello, welcome to Monopoly, would you like the instructions? \n(1) Yes \n(2) No");
 				
 
@@ -90,6 +92,7 @@ public class Introduction
 		{ 
 			System.out.println("This is a work in progress...");
 		}
-
+		
+		
 
 	}
