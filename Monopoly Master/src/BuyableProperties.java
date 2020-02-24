@@ -23,7 +23,6 @@ public abstract class BuyableProperties extends Board
 				this.price = price;
 			}
 
-	
 		public boolean isBought()
 			{
 				return bought;

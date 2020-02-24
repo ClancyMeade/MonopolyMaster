@@ -1,13 +1,13 @@
- public abstract class Board
+public abstract class Board
 	{
 		protected String name;
-		protected String type; 
+		protected String type;
 		protected int placeOnBoard;
 
 		public Board(String n, String t, int pOB)
 			{
 				name = n;
-				type = t; 
+				type = t;
 				placeOnBoard = pOB;
 			}
 

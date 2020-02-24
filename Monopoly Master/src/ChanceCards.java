@@ -4,11 +4,11 @@ public class ChanceCards extends NotBuyable
 	{
 		protected ArrayList<String> cards;
 		protected boolean alreadyPicked;
-   
+
 		public ChanceCards(String n, String t, int pOB, boolean oS, boolean aP)
 			{
 				super(n, t, pOB, oS);
-				//cards = c;
+				// cards = c;
 				alreadyPicked = aP;
 			}
 

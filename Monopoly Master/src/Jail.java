@@ -5,7 +5,7 @@ public class Jail extends NotBuyable
 		protected int numberOfRollsWhileInJail;
 
 		// name, jail, place on board, on space, in jail, number of rolls in jail
-		public Jail(String n, String t,  int pOB, boolean oS, boolean iJ, int nORWIJ)
+		public Jail(String n, String t, int pOB, boolean oS, boolean iJ, int nORWIJ)
 			{
 				super(n, t, pOB, oS);
 				inJail = iJ;

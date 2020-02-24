@@ -15,8 +15,7 @@ public class Reverse
 								reverser = true;
 								i++;
 							}
-					}
-				else if (i == 1)
+					} else if (i == 1)
 					{
 						if (MonopolyRunner.board
 								.get(MonopolyRunner.players.get(Playing.currentPlayer).getPlaceOnBoard()).getName()
@@ -28,11 +27,12 @@ public class Reverse
 					}
 				if (reverser)
 					{
-						MonopolyRunner.players.get(Playing.currentPlayer).setPlaceOnBoard(MonopolyRunner.players.get(Playing.currentPlayer).getPlaceOnBoard() - Dice.diceTotal);
-					}
-				else 
+						MonopolyRunner.players.get(Playing.currentPlayer).setPlaceOnBoard(
+								MonopolyRunner.players.get(Playing.currentPlayer).getPlaceOnBoard() - Dice.diceTotal);
+					} else
 					{
-						MonopolyRunner.players.get(Playing.currentPlayer).setPlaceOnBoard(MonopolyRunner.players.get(Playing.currentPlayer).getPlaceOnBoard() + Dice.diceTotal);
+						MonopolyRunner.players.get(Playing.currentPlayer).setPlaceOnBoard(
+								MonopolyRunner.players.get(Playing.currentPlayer).getPlaceOnBoard() + Dice.diceTotal);
 					}
 
 			}
